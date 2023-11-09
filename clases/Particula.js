@@ -1,7 +1,7 @@
 class Particula {
 	constructor(_x, _y) {
 		this.pos = createVector(_x, _y);
-		this.lifespan = Math.ceil(random(10, 200));
+		this.lifespan = Math.ceil(random(10, 100));
 		this.isAlive = true;
 		this.side = Math.ceil(random(3, 15));
 		this.color = random(150);
